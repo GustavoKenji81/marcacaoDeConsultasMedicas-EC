@@ -5,4 +5,4 @@ export type Appointment = {
     time: string;
     description: string;
     status: string;
-  };
+};
