@@ -223,4 +223,4 @@ const StatusText = styled.Text<StyledProps>`
   font-weight: 500;
 `;
 
-export default PatientDashboardScreen;
+export default PatientDashboardScreen; 

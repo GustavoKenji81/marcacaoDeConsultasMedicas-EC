@@ -3,4 +3,4 @@ export type Doctor = {
     name: string;
     specialty: string;
     image: string;
-};
+  };
