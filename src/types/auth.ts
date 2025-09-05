@@ -1,4 +1,8 @@
 /**
+ * Tipos relacionados à autenticação e autorização
+ */
+
+/**
  * Perfis de usuário disponíveis no sistema
  */
 export type UserRole = 'admin' | 'doctor' | 'patient';
@@ -56,6 +60,7 @@ export interface RegisterData {
   name: string;
   email: string;
   password: string;
+  userType?: 'PACIENTE' | 'ADMIN'; // Opcional para compatibilidade
 }
 
 /**
